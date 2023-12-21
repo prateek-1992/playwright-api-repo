@@ -1,0 +1,11 @@
+export interface BookingDetails {
+  firstname: string;
+  lastname: string;
+  totalprice: number;
+  depositpaid: boolean;
+  bookingdates: {
+    checkin: string;
+    checkout: string;
+  };
+  additionalneeds: string;
+}
